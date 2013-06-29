@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Des.exe" version="1.0.0.0" publicKeyToken="53bd1dcc4aa146f2" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Ncrow-Mega-Pack-2-Pinnacle-Studio.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Des" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Des.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Des.exe" size="211968">
+      <assemblyIdentity name="Des" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9sZELblgYJx+CGh6RwoXOF36vo4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Ncrow-Mega-Pack-2-Pinnacle-Studio.ico" size="200678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>C/iRuVCoUBfEWfjJqLXrMcuGOoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sorter.ico" size="4996">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9a71YfWuMwwj6uevDH+ZPWC1jD8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=mo3ath-PC\mo3ath" issuerKeyHash="d9c4bc14e54ab78886b0898360c6586e4a3ad4f5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rDlvArWf2jiiZu2zfELEapDxlQk=</DigestValue></Reference></SignedInfo><SignatureValue>PPJCZSX+ykym+b+PVmFh0qMb1nOn3SE17NN2cB6ek98FBzCr0O7FQnLd8AWa0nR/DzjgvHomvMlVCEuCubPU4AZ+lTz5C/KNLCTuBVmwekjJJOdmXbM74bXoBM7/KQTqtJOO1h5/pSuSOJKGwHyvmPxH2+zJspnfKU503AmVAss=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3Dzg4pn/kJrBz3N7mxmAgEMNZUJV34cQe6+ztNzrXishLvVhhh+//Xa2aXESRqqx2fukNHvXpkS+pp+zIrh4NUxd9gwNZeft0Qc4clxo9W3O/0rYn08ILmDkqvfSHHHOcaX71p5w3+btgtyvjRUoiWk+TDnPMD6323ZTTIpO8Sc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0995f1906ac4427cb3ed66a238da9fb5026f39ac" Description="" Url=""><as:assemblyIdentity name="Des.exe" version="1.0.0.0" publicKeyToken="53bd1dcc4aa146f2" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=mo3ath-PC\mo3ath</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dUirhr0OflSKC7AZY62pbZHXeso=</DigestValue></Reference></SignedInfo><SignatureValue>aIhIS8KvRk5DXK0L+fcrA7wEQ6TjfR3b4sz4D9/JYpngWyFr86e0TgiQKsYDjlUv2IhVtEKk1OwgrMHc3tOIpNvufTWyFTnWVcLBzkV05PSJ65qVICKEpo4/EzcRTCAQ3nTV71D6AtbMMk4RW/x5SWwCkDuoLV15Csiy6yfGP6A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3Dzg4pn/kJrBz3N7mxmAgEMNZUJV34cQe6+ztNzrXishLvVhhh+//Xa2aXESRqqx2fukNHvXpkS+pp+zIrh4NUxd9gwNZeft0Qc4clxo9W3O/0rYn08ILmDkqvfSHHHOcaX71p5w3+btgtyvjRUoiWk+TDnPMD6323ZTTIpO8Sc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQUwhxh6Vz55JDcEJEYMUTyDANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAbQBvADMAYQB0AGgALQBQAEMAXABtAG8AMwBhAHQAaDAeFw0xMzA0MTQxNTUzMzZaFw0xNDA0MTQyMTUzMzZaMCsxKTAnBgNVBAMeIABtAG8AMwBhAHQAaAAtAFAAQwBcAG0AbwAzAGEAdABoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcPODimf+QmsHPc3ubGYCAQw1lQlXfhxB7r7O03OteKyEu9WGGH7/9drZpcRJGqrHZ+6Q0e9emRL6mn7MiuHg1TF32DA1l5+3RBzhyXGj1bc7/StifTwguYOSq99Iccc5xpfvWnnDf5u2C3K+NFSiJaT5MOc8wPrfbdlNMik7xJwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABkjfyPxrIp8dsZh1e9gRgXHS+dn0DaEFo/QvhWmTyWlC5cH+Ue+uL3SFxbP+Qnp+UhDxUg9atOXsGLPXufZ7Ytl2Jhe3Zpb21Jg8j0VMzDXFET70vXoWA9XmM1/yy3y219fiMb2Z7uZtXBK8hU2LFtC8yD3l/WR3D1ETXgf9KAL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

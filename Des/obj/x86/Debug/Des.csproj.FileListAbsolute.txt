@@ -1,0 +1,4 @@
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\bin\Debug\Des.exe
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\bin\Debug\Des.pdb
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\obj\x86\Debug\Des.exe
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\obj\x86\Debug\Des.pdb

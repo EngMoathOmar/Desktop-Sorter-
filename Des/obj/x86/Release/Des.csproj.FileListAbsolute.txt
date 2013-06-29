@@ -1,0 +1,9 @@
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\bin\Release\Des.exe
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\bin\Release\Des.pdb
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\obj\x86\Release\Des.exe
+c:\users\mo3ath\documents\visual studio 2010\Projects\Des\Des\obj\x86\Release\Des.pdb
+C:\Users\mo3ath\Documents\Visual Studio 2010\Projects\Des\Des\bin\Release\sorter.ico
+C:\Users\mo3ath\Documents\Visual Studio 2010\Projects\Des\Des\bin\Release\Des.exe.manifest
+C:\Users\mo3ath\Documents\Visual Studio 2010\Projects\Des\Des\bin\Release\Des.application
+C:\Users\mo3ath\Documents\Visual Studio 2010\Projects\Des\Des\obj\x86\Release\Des.exe.manifest
+C:\Users\mo3ath\Documents\Visual Studio 2010\Projects\Des\Des\obj\x86\Release\Des.application
